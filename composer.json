@@ -1,0 +1,17 @@
+{
+    "name": "alberto/antiguedadesv4",
+    "description": "proyecto de sistema de ventas con Axios",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alberto Sosa",
+            "email": "petox.somart@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.17",
+        "illuminate/events": "^8.17",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    }
+}

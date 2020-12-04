@@ -1,0 +1,135 @@
+* {
+    font-family: verdana, sans-serif;
+    font-size: 14pt;
+}
+
+/*header*/
+.bg-dark{
+    background: sienna !important;
+}
+#icon{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+#used {
+    top: 0;
+    bottom: 0;
+}
+.info {
+    font-style :italic;
+    margin     :40px 0px;
+    text-align :center;
+}
+.a{
+    color: #700808 !important;
+    text-decoration: none !important;
+    padding: 10px 20px !important;
+    font-size: 1em !important;
+}
+.a:hover
+{
+    color: #34060a !important;
+    text-decoration: none !important;
+
+    font-size: 1.03em !important;
+    margin-left: 8px;
+    top: 0;
+    z-index: 1;
+
+    transition: all 0.2s ease-out !important;
+}
+
+/*shop*/
+.producto
+{
+    display: flex;
+    justify-content: space-around;
+}.btntxt{
+    text-decoration: none;
+}
+
+
+/*LOGIN*/
+.accessform-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accessform
+{
+    border-radius: 2%;
+
+    background-color: #34060a;
+
+    padding: 2%;
+}
+@media screen and (max-width:767px){
+    .accessform-container{
+        padding: 4%;
+    }
+    .accessform
+    {
+        padding: 6%;
+    }
+}
+.accessform label
+{
+    color: #ffffff;
+}
+.accessform-title
+{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.center {
+    text-align: center;
+}
+
+/*singup*/
+.username {
+    text-align : center;
+    background : #eb8;
+    color      :#40d;
+    font-family: helvetica;
+    font-size  : 20pt;
+    padding    :4px;
+}
+.taken, .error {
+    color: red;
+}
+.avaliable {
+    color: green;
+}
+
+
+.error{
+    color: #d42929;
+    margin-bottom: 3%;
+}
+.check
+{
+    color: rgb(5, 156, 5);
+    text-align: center;
+}
+.money
+{
+    color: rgb(7, 177, 7);
+}
+.linkC
+{
+    color:rgba(0,150,45,.925);text-decoration:none}
+.linkC:hover{color:rgb(0, 255, 0);text-decoration:none !important}
+
+.btn-color
+{
+    color: rgb(211, 208, 208);
+    background-color: #aa2828;
+}
+.btn-color:hover
+{
+    color: #ffffff;
+    background-color: #c02c2c;
+}
