@@ -8,7 +8,7 @@ $capsule->addConnection([
     'host'      => 'localhost',
     'database'  => 'antiguedades',
     'username'  => 'root',
-    'password'  => 'Simpson95!',
+    'password'  => '',
     'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => '',
