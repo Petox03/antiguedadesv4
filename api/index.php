@@ -79,7 +79,7 @@ $app->post('/singup', function (Request $request, Response $response, array $arg
         {
             $msg->passes = true;
 
-            //! Consulta si hay un user igual al que se intenta registrar
+            //! Consulta si hay un user igual al que se intenta registrar antes
             $users = DB::table('members')->where('usuario', $user)->first();
 
             //Se comprueba si existe un user con las condiciones puestas
@@ -222,6 +222,7 @@ $app->post('/perfil', function (Request $request, Response $response, array $arg
     if($modi)
     {
         $msg->modi = true;
+        $msg->col = true;
     }
     else {
         $msg->modi = false;
